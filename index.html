@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/registration-form.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Event Registration</title>
 </head>
 <body>
+    <header>
+        <h1>Event Registration</h1>
+    </header>
+    <main>
+        <section id="event-description">
+            Section One
+        </section>
+        <section id="event-form">
+            <form>
+                <label>Name</label>
+                    <input type="text" id="name">
+                <label>Email</label>
+                    <input type="email" id="email">
+                <label>Pronoun</label>
+                    <input type="text" id="pronoun">
+                <label>Number of guests</label>
+                    <input type="number" id="number-of-guests">
+                <select id="meal-selection">
+                    <option>Pizza</option>
+                    <option>Burger</option>
+                    <option>Tacos</option>
+                </select>
+                <select id="shirt-size" required>
+                    <option disabled selected>Select a size</option>
+                        <optgroup label="Youth">
+                            <option value="youth-small">Small</option>
+                            <option value="youth-medium">Medium</option>
+                            <option value="youth-large">Large</option>
+                        </optgroup>
+                        <optgroup label="Adult">
+                            <option value="adult-small">Small</option>
+                            <option value="adult-medium">Medium</option>
+                            <option value="adult-large">Large</option>
+                        </optgroup>
+                </select>
+            </form>
 
+        </section>
+    </main>
+    <script src="js/app.js" type="module"></script>
 </body>
 </html>
