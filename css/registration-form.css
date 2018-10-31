@@ -1,0 +1,42 @@
+
+section {
+    background-color: yellowgreen;
+    display: flex;
+    order: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-flow: row wrap;
+}
+
+input {
+    margin: 2px;
+    height: 2em;
+    font-size: 18px;
+}
+
+/* #button-div {
+    display: inline-flex;
+    flex-flow: row;
+} */
+
+label {
+    color: purple;
+    font-style: italic;
+}
+
+/* button {
+
+    border-radius: 15px;
+    width: 4em;
+    font-size: 15px;
+    color: purple;
+    margin-top: 3px;
+    border: 2px solid purple;
+    background-color: red;
+    justify-content: center;
+}
+
+button:hover {
+    background: yellow;
+} */

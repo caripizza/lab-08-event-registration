@@ -1,7 +1,76 @@
 * {
     font-family: Helvetica, sans-serif;
+    /* box-sizing: border-box; */
+    margin: 0px auto;
 }
 
-h1, h2, h3 {
+/* ----------- Body > Header styles ----------- */
+body {
+    display: block;
+    background-color: purple;
+    align-content: center;
+}
+
+header {
+    background-color: purple;
+}
+
+.logo {
+    display: flex;
+    width: auto;
+}
+
+h1 {
+    background-color: purple;
+    color: red;
+    font-style: italic;
+    font-size: 40px;
+    padding: 2px;
+    text-align: center;
+}
+
+/* ----------- Body > Main styles ----------- */
+h2 {
+    color: purple;
+    text-align: center;
+}
+
+main {
+    background-color: purple;
+}
+
+div {
+    padding: 15px 0px 25px 0px;
+    background-color: yellowgreen;
+}
+
+footer {
+    display: flex;
+    padding: 2em;
+    background-color: yellowgreen;
+}
+
+a:hover {
+    color: red;
+    font-style: italic;
+}
+
+h2 a {
+    color: purple;
+}
+
+hr {
+    margin: 10px;
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+}
+
+h3 {
+    color: purple;
+    text-align: center;
+    font-style: italic;
+}
+
+p {
     color: purple;
 }

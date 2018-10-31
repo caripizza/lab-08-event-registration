@@ -14,22 +14,23 @@
     </header>
     <main>
         <section id="event-description">
-            Section One
+            <h2>Sign Up!</h2>
+            <p>Details and description about this event</p>
         </section>
         <section id="event-form">
             <form>
                 <label>Name</label>
-                    <input type="text" id="name">
+                    <input type="text" id="name" placeholder="First Last">
                 <label>Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" placeholder="youremail@email.com">
                 <label>Pronoun</label>
-                    <input type="text" id="pronoun">
+                    <input type="text" id="pronoun" placeholder="he/his, she/her, they/them">
                 <label>Number of guests</label>
                     <input type="number" id="number-of-guests">
                 <select id="meal-selection">
-                    <option>Pizza</option>
-                    <option>Burger</option>
-                    <option>Tacos</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="burger">Burger</option>
+                    <option value="tacos">Tacos</option>
                 </select>
                 <select id="shirt-size" required>
                     <option disabled selected>Select a size</option>
@@ -44,8 +45,11 @@
                             <option value="adult-large">Large</option>
                         </optgroup>
                 </select>
+                <div id="div-submit-button">
+                    <button id="submit-button">Go!</button>
+                </div>
+                <p id="submit-message-response"></p>
             </form>
-
         </section>
     </main>
     <script src="js/app.js" type="module"></script>
