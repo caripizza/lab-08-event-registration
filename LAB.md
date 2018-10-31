@@ -7,6 +7,8 @@ Build an event registration form!
 
 * Can register for event
     * Name, Pronoun, Email
+    * T-shirt size, style (kids / fitted / unisex), and color
+    * Number of guests bringing
     * Meal Selection
 
 ## Project Structure
