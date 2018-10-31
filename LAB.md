@@ -18,6 +18,7 @@ Build an event registration form!
     * `styles.css` - _shared css_
 * `js`
     * `app.js` - _main entry point_
+    * STRETCH: `attendees.js` - _component for display attendees_
     * `event-api.js` - _methods for data_
     * STRETCH: `html.js` - _helper function for making templates_
     * `registration-form.js` - _component for form_
