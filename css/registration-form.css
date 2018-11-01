@@ -1,18 +1,27 @@
 
-
 input {
     margin: 10px;
     height: 1.5em;
     font-size: 18px;
+    background-color: yellow;
+    text-indent: .5em;
+    outline: 1px solid purple;
+    border: 1px solid lightgray;
 }
 
 label {
     color: purple;
     font-style: italic;
+    margin: 5px;
+}
+
+select {
+    zoom: 1.5;
+    background-color: yellow;
+    color: gray;
 }
 
 button {
-
     border-radius: 15px;
     width: 4em;
     font-size: 15px;
@@ -26,7 +35,3 @@ button {
 button:hover {
     background: yellow;
 }
-
-/* select {
-    
-} */

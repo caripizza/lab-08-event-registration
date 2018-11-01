@@ -14,11 +14,6 @@ header {
     background-color: purple;
 }
 
-.logo {
-    display: flex;
-    width: auto;
-}
-
 h1 {
     background-color: purple;
     color: red;
@@ -43,27 +38,6 @@ div {
     background-color: yellowgreen;
 }
 
-footer {
-    display: flex;
-    padding: 2em;
-    background-color: yellowgreen;
-}
-
-a:hover {
-    color: red;
-    font-style: italic;
-}
-
-h2 a {
-    color: purple;
-}
-
-hr {
-    margin: 10px;
-    background-color: yellowgreen;
-    border: 2px solid yellowgreen;
-}
-
 h3 {
     color: purple;
     text-align: center;
@@ -76,9 +50,15 @@ p {
 
 section {
     background-color: yellowgreen;
+    /* display: flex; */
+    width: 100%;
+    /* flex-direction: row; */
+    /* padding: 10px; */
+    /* flex-flow: wrap; */
+}
+
+footer {
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
-    padding: 10px;
-    flex-flow: row wrap;
+    padding: 2em;
+    background-color: yellowgreen;
 }

@@ -23,21 +23,21 @@
                     Name
                     <input type="text" name="name" id="name" placeholder="First Last" required>
                 </label>
-                <br>
+                <fieldset>
                 <label>
                     Email
                     <input type="email" name="email" id="email" placeholder="youremail@email.com" required>
-                <br>
+                <fieldset>
                 </label>
                 <label>
                     Pronoun
                     <input type="text" name="pronoun" id="pronoun" placeholder="he/his, she/her, they/them" required>
-                <br>
+                <fieldset>
                 </label>
                 <label>
                     Number of guests
                     <input type="number" name="guests" min="1" pattern="[-+]?[0-9]" id="number-of-guests" required>
-                <br>
+                <fieldset>
                 </label>
                 <label>
                     Select a meal
@@ -47,7 +47,7 @@
                         <option value="burger">Burger</option>
                         <option value="tacos">Tacos</option>
                     </select>
-                <br>
+                <fieldset>
                 </label>
                 <label>
                     Select t-shirt size
@@ -64,11 +64,24 @@
                                 <option value="adult-large">Large</option>
                             </optgroup>
                     </select>
+                <fieldset>
                 </label>
                 <div id="div-submit-button">
                     <button id="submit-button">Go!</button>
                 </div>
                 <p id="submit-message-response"></p>
+                <table id="form-submission-table">
+                    <thead>
+                        <tr id="column-headings">
+                            <td>Name</td>
+                            <td>Email</td>
+                            <td>Pronoun</td>
+                            <td>Number of guests</td>
+                            <td>Meal selection</td>
+                            <td>Shirt size</td>
+                        </tr>
+                    </thead>
+                </table>
             </form>
         </section>
     </main>
