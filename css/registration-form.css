@@ -1,31 +1,17 @@
 
-section {
-    background-color: yellowgreen;
-    display: flex;
-    order: 1;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 10px;
-    flex-flow: row wrap;
-}
 
 input {
-    margin: 2px;
-    height: 2em;
+    margin: 10px;
+    height: 1.5em;
     font-size: 18px;
 }
-
-/* #button-div {
-    display: inline-flex;
-    flex-flow: row;
-} */
 
 label {
     color: purple;
     font-style: italic;
 }
 
-/* button {
+button {
 
     border-radius: 15px;
     width: 4em;
@@ -39,4 +25,8 @@ label {
 
 button:hover {
     background: yellow;
-} */
+}
+
+select {
+    
+}

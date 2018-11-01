@@ -1,12 +1,11 @@
 * {
     font-family: Helvetica, sans-serif;
     /* box-sizing: border-box; */
-    margin: 0px auto;
+    /* margin: 0px auto; */
 }
 
 /* ----------- Body > Header styles ----------- */
 body {
-    display: block;
     background-color: purple;
     align-content: center;
 }
@@ -73,4 +72,13 @@ h3 {
 
 p {
     color: purple;
+}
+
+section {
+    background-color: yellowgreen;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    padding: 10px;
+    flex-flow: row wrap;
 }

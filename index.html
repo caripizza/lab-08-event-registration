@@ -13,38 +13,56 @@
         <h1>Event Registration</h1>
     </header>
     <main>
-        <section id="event-description">
+        <div id="event-description-div">
             <h2>Sign Up!</h2>
-            <p>Details and description about this event</p>
-        </section>
-        <section id="event-form">
-            <form>
-                <label>Name</label>
-                    <input type="text" id="name" placeholder="First Last">
-                <label>Email</label>
-                    <input type="email" id="email" placeholder="youremail@email.com">
-                <label>Pronoun</label>
-                    <input type="text" id="pronoun" placeholder="he/his, she/her, they/them">
-                <label>Number of guests</label>
-                    <input type="number" id="number-of-guests">
-                <select id="meal-selection">
-                    <option value="pizza">Pizza</option>
-                    <option value="burger">Burger</option>
-                    <option value="tacos">Tacos</option>
-                </select>
-                <select id="shirt-size" required>
-                    <option disabled selected>Select a size</option>
-                        <optgroup label="Youth">
-                            <option value="youth-small">Small</option>
-                            <option value="youth-medium">Medium</option>
-                            <option value="youth-large">Large</option>
-                        </optgroup>
-                        <optgroup label="Adult">
-                            <option value="adult-small">Small</option>
-                            <option value="adult-medium">Medium</option>
-                            <option value="adult-large">Large</option>
-                        </optgroup>
-                </select>
+            <h3>Details and description about this event</h3>
+        </div>
+        <section id="event-form-section">
+            <form id="event-form">
+                <label>
+                    Name
+                    <input type="text" name="name" id="name" placeholder="First Last">
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="email" id="email" placeholder="youremail@email.com">
+                <br>
+                </label>
+                <label>
+                    Pronoun
+                    <input type="text" name="pronoun" id="pronoun" placeholder="he/his, she/her, they/them">
+                <br>
+                </label>
+                <label>
+                    Number of guests
+                    <input type="number" name="guests" min="1" pattern="[-+]?[0-9]" id="number-of-guests">
+                <br>
+                </label>
+                <label>
+                    Selet a meal
+                    <select id="meal-selection" name="meal">
+                        <option value="pizza">Pizza</option>
+                        <option value="burger">Burger</option>
+                        <option value="tacos">Tacos</option>
+                    </select>
+                <br>
+                </label>
+                <label>
+                    Select t-shirt size
+                    <select id="shirt-size" required name="shirt">
+                        <option disabled selected>Select a size</option>
+                            <optgroup label="Youth">
+                                <option value="youth-small">Small</option>
+                                <option value="youth-medium">Medium</option>
+                                <option value="youth-large">Large</option>
+                            </optgroup>
+                            <optgroup label="Adult">
+                                <option value="adult-small">Small</option>
+                                <option value="adult-medium">Medium</option>
+                                <option value="adult-large">Large</option>
+                            </optgroup>
+                    </select>
+                </label>
                 <div id="div-submit-button">
                     <button id="submit-button">Go!</button>
                 </div>
@@ -52,6 +70,8 @@
             </form>
         </section>
     </main>
+    <footer>
+    </footer>
     <script src="js/app.js" type="module"></script>
 </body>
 </html>
