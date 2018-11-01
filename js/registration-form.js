@@ -1,15 +1,27 @@
 const eventForm = document.getElementById('event-form');
 const formResponse = document.getElementById('submit-message-response');
 
+
+// const nameInput = document.getElementById('name');
+
+// const removeResponseAfterSubmit = {
+//    nameInput.addEventListener('keyup', function(event) {
+//      function refreshPage(){
+//         window.location.reload();
+//     }
+// }
+// }
+
+
+
 const eventFormItems = {
     init(onAdd) {
-
         eventForm.addEventListener('submit', function(event) {
             event.preventDefault();
 
             // collect the form events
             const elements = eventForm.elements;
-            // console.log(elements); // SPIT OUT SUBMITTED FORM ELEMENTS TO CONSOLE
+            // console.log(elements); // SPIT OUT SUBMITTED FORM ELEMENT IDS TO CONSOLE
 
             // data object
             const userData = {};
@@ -30,7 +42,22 @@ const eventFormItems = {
 
             eventForm.reset();
 
+            // after form submit, clear formResponse after 1000ms/display alert/reload page
+            setTimeout(function() {
+                clearMessage();
+                alert('Thanks for signing up!');
+                window.location.reload();
+            }, 1000);
+
         });
+
+        // clear formResponse after submit and click into input
+        function clearMessage() {
+            formResponse.textContent = '';
+        }
+        eventForm.addEventListener('change', clearMessage);
+        eventForm.addEventListener('keydown', clearMessage);
+
     }
 };
 

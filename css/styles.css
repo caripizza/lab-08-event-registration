@@ -49,3 +49,8 @@ p {
     color: purple;
     text-align: center;
 }
+
+/* ------- used for form table results ---------- */
+.hidden {
+    display: none;
+}

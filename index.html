@@ -28,7 +28,7 @@
                 <fieldset>
                 <label>
                     Email
-                    <input type="email" name="email" id="email" placeholder="youremail@email.com" required>
+                    <input type="email" name="email" id="email" placeholder="email@email.com" required>
                 </label>
                 </fieldset>
                 <fieldset>
@@ -55,31 +55,31 @@
                 </select>
                 </fieldset>
                 <fieldset>
-                    <label>
-                        Select t-shirt size
-                    </label>
-                    <select id="shirt-size" required name="shirt">
-                        <option disabled selected>Select a t-shirt size</option>
-                            <optgroup label="Youth">
-                                <option value="youth-small">Small</option>
-                                <option value="youth-medium">Medium</option>
-                                <option value="youth-large">Large</option>
-                            </optgroup>
-                            <optgroup label="Adult">
-                                <option value="adult-small">Small</option>
-                                <option value="adult-medium">Medium</option>
-                                <option value="adult-large">Large</option>
-                            </optgroup>
-                    </select><br>
-                    <label>
-                        Select t-shirt color
-                    </label>
-                    <select id="shirt-color" name="shirt-color" required>
-                            <option disabled selected>Select a t-shirt color</option>
-                            <option value="pizza">Red</option>
-                            <option value="burger">Green</option>
-                            <option value="tacos">Blue</option>
-                    </select>
+                <label>
+                    Select t-shirt size
+                </label>
+                <select id="shirt-size" required name="shirt">
+                    <option disabled selected>Select a t-shirt size</option>
+                        <optgroup label="Youth">
+                            <option value="youth-small">Small</option>
+                            <option value="youth-medium">Medium</option>
+                            <option value="youth-large">Large</option>
+                        </optgroup>
+                        <optgroup label="Adult">
+                            <option value="adult-small">Small</option>
+                            <option value="adult-medium">Medium</option>
+                            <option value="adult-large">Large</option>
+                        </optgroup>
+                </select><br>
+                <label>
+                    Select t-shirt color
+                </label>
+                <select id="shirt-color" name="shirt-color" required>
+                        <option disabled selected>Select a t-shirt color</option>
+                        <option value="pizza">Red</option>
+                        <option value="burger">Green</option>
+                        <option value="tacos">Blue</option>
+                </select>
                 </fieldset>
                 <fieldset>
                     <button id="submit-button">Go!</button>
@@ -89,7 +89,7 @@
                     </div>
                     <table id="form-submission-table">
                         <thead>
-                            <tr id="column-headings">
+                            <tr id="column-headings" class="hidden">
                                 <td>Name</td>
                                 <td>Email</td>
                                 <td>Pronoun</td>
@@ -99,7 +99,7 @@
                             </tr>
                         </thead>
                     </table>
-            </form>
+                </form>
         </section>
     </main>
     <script src="js/app.js" type="module"></script>
