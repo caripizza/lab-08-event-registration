@@ -19,40 +19,47 @@
         </div>
         <section id="event-form-section">
             <form id="event-form">
+                <fieldset>
                 <label>
-                    Name
-                    <input type="text" name="name" id="name" placeholder="First Last" required>
+                Name
+                    <input type="text" name="name" id="name" width="5px" placeholder="First Last" required>
                 </label>
+                </fieldset>
                 <fieldset>
                 <label>
                     Email
                     <input type="email" name="email" id="email" placeholder="youremail@email.com" required>
-                <fieldset>
                 </label>
+                </fieldset>
+                <fieldset>
                 <label>
                     Pronoun
                     <input type="text" name="pronoun" id="pronoun" placeholder="he/his, she/her, they/them" required>
-                <fieldset>
                 </label>
+                </fieldset>
+                <fieldset>
                 <label>
                     Number of guests
                     <input type="number" name="guests" min="1" pattern="[-+]?[0-9]" id="number-of-guests" required>
-                <fieldset>
                 </label>
+                </fieldset>
+                <fieldset>
                 <label>
                     Select a meal
-                    <select id="meal-selection" name="meal" required>
-                        <option disabled selected>Select a meal</option>
-                        <option value="pizza">Pizza</option>
-                        <option value="burger">Burger</option>
-                        <option value="tacos">Tacos</option>
-                    </select>
-                <fieldset>
                 </label>
-                <label>
-                    Select t-shirt size
+                <select id="meal-selection" name="meal" required>
+                    <option disabled selected>Select a meal</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="burger">Burger</option>
+                    <option value="tacos">Tacos</option>
+                </select>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Select t-shirt size
+                    </label>
                     <select id="shirt-size" required name="shirt">
-                        <option disabled selected>Select a size</option>
+                        <option disabled selected>Select a t-shirt size</option>
                             <optgroup label="Youth">
                                 <option value="youth-small">Small</option>
                                 <option value="youth-medium">Medium</option>
@@ -64,29 +71,37 @@
                                 <option value="adult-large">Large</option>
                             </optgroup>
                     </select>
-                <fieldset>
-                </label>
-                <div id="div-submit-button">
-                    <button id="submit-button">Go!</button>
-                </div>
-                <p id="submit-message-response"></p>
-                <table id="form-submission-table">
-                    <thead>
-                        <tr id="column-headings">
-                            <td>Name</td>
-                            <td>Email</td>
-                            <td>Pronoun</td>
-                            <td>Number of guests</td>
-                            <td>Meal selection</td>
-                            <td>Shirt size</td>
-                        </tr>
-                    </thead>
-                </table>
+                    <label>
+                        Select t-shirt color
+                    </label>
+                    <select id="shirt-color" name="shirt-color" required>
+                            <option disabled selected>Select a t-shirt color</option>
+                            <option value="pizza">Red</option>
+                            <option value="burger">Green</option>
+                            <option value="tacos">Blue</option>
+                    </select>
+                </fieldset>
+                        <fieldset>
+                        <button id="submit-button">Go!</button>
+                        </fieldset>
+                    <section id="sect-submit-button">
+                        <p id="submit-message-response"></p>
+                        <table id="form-submission-table">
+                            <thead>
+                                <tr id="column-headings">
+                                    <td>Name</td>
+                                    <td>Email</td>
+                                    <td>Pronoun</td>
+                                    <td>Number of guests</td>
+                                    <td>Meal selection</td>
+                                    <td>Shirt size</td>
+                                </tr>
+                            </thead>
+                        </table>
+                </section>
             </form>
         </section>
     </main>
-    <footer>
-    </footer>
     <script src="js/app.js" type="module"></script>
 </body>
 </html>

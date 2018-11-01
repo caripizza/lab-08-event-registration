@@ -1,13 +1,12 @@
 * {
     font-family: Helvetica, sans-serif;
-    /* box-sizing: border-box; */
-    /* margin: 0px auto; */
+    margin: 0px auto;
 }
 
 /* ----------- Body > Header styles ----------- */
 body {
     background-color: purple;
-    align-content: center;
+    margin: 3em auto;
 }
 
 header {
@@ -31,11 +30,12 @@ h2 {
 
 main {
     background-color: purple;
+    width: 100%;
 }
 
 div {
-    padding: 15px 0px 25px 0px;
-    background-color: yellowgreen;
+    padding: 15px auto;
+    background-color: red;
 }
 
 h3 {
@@ -45,20 +45,5 @@ h3 {
 }
 
 p {
-    color: purple;
-}
-
-section {
-    background-color: yellowgreen;
-    /* display: flex; */
-    width: 100%;
-    /* flex-direction: row; */
-    /* padding: 10px; */
-    /* flex-flow: wrap; */
-}
-
-footer {
-    display: flex;
-    padding: 2em;
-    background-color: yellowgreen;
+    color: yellowgreen;
 }

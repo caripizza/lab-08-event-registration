@@ -1,24 +1,39 @@
 
+form {
+    text-align: center;
+}
 input {
-    margin: 10px;
+    margin: 20px;
     height: 1.5em;
-    font-size: 18px;
-    background-color: yellow;
+    font-size: 16px;
     text-indent: .5em;
-    outline: 1px solid purple;
-    border: 1px solid lightgray;
+    width: 15em;
+}
+
+input[type=number] {
+    width: 4em;
+}
+
+fieldset {
+    border: .5px solid red;
+    padding: 15px auto;
+    display: table-row;
 }
 
 label {
-    color: purple;
+    color: yellowgreen;
     font-style: italic;
-    margin: 5px;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 20px;
 }
 
 select {
-    zoom: 1.5;
-    background-color: yellow;
-    color: gray;
+    /* zoom: 1.5; */
+    margin: 20px;
+    zoom: 1em;
+    font-size: 16px;
+    background-color: white;
 }
 
 button {
@@ -26,10 +41,8 @@ button {
     width: 4em;
     font-size: 15px;
     color: purple;
-    margin-top: 3px;
     border: 2px solid purple;
     background-color: red;
-    justify-content: center;
 }
 
 button:hover {
