@@ -1,5 +1,4 @@
 const eventForm = document.getElementById('event-form');
-// const name = document.getElementById('name');
 const formResponse = document.getElementById('submit-message-response');
 
 const eventFormItems = {
@@ -17,6 +16,11 @@ const eventFormItems = {
 
             // gather data
             userData.name = elements.name.value;
+            userData.email = elements.email.value;
+            userData.pronoun = elements.pronoun.value;
+            userData.guests = elements.guests.value;
+            userData.meal = elements.meal.value;
+            userData.shirt = elements.shirt.value;
 
             // call the callback function
             onAdd(userData);
