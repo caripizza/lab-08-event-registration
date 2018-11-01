@@ -6,7 +6,7 @@
 /* ----------- Body > Header styles ----------- */
 body {
     background-color: purple;
-    margin: 3em auto;
+    /* margin: 3em auto; */
 }
 
 header {
@@ -18,7 +18,7 @@ h1 {
     color: red;
     font-style: italic;
     font-size: 40px;
-    padding: 2px;
+    padding: 12px;
     text-align: center;
 }
 
@@ -34,8 +34,9 @@ main {
 }
 
 div {
-    padding: 15px auto;
+    padding: 25px auto;
     background-color: red;
+    height: 100%;
 }
 
 h3 {
@@ -45,5 +46,6 @@ h3 {
 }
 
 p {
-    color: yellowgreen;
+    color: purple;
+    text-align: center;
 }

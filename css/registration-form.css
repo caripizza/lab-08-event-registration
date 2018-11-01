@@ -38,7 +38,8 @@ select {
 
 button {
     border-radius: 15px;
-    width: 4em;
+    width: 5em;
+    height: 3em;
     font-size: 15px;
     color: purple;
     border: 2px solid purple;
@@ -47,4 +48,12 @@ button {
 
 button:hover {
     background: yellow;
+}
+
+/* ------ table -------- */
+td {
+    color: yellowgreen;
+    font-weight: 100;
+    font-style: italic;
+    justify-content: space-between;
 }

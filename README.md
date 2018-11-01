@@ -6,13 +6,12 @@
 
 ## Description
 
-In this lab we are ....
+In this lab, I created an event registration form using various inputs to gather user data.
 
 ## Setup/Installation Requirements
 
-* Do this
-* as;fkjdsag;
+* View the GitHub Page in a modern browser: https://caripizza.github.io/lab-08-event-registration/
 
 ## Technologies Used
 
-* Vanilla JavaScript...
+* Vanilla JavaScript, Chrome Dev Tools, VSCode, Git, HTML/CSS

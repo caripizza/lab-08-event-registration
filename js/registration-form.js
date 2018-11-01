@@ -26,7 +26,7 @@ const eventFormItems = {
             onAdd(userData);
 
             // onscreen message
-            formResponse.textContent = 'TEST';
+            formResponse.textContent = 'Thank you for signing up! We will be in touch as soon as possible.';
 
             eventForm.reset();
 
