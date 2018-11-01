@@ -9,7 +9,7 @@ const eventFormItems = {
 
             // collect the form events
             const elements = eventForm.elements;
-            console.log(elements); // SPIT OUT SUBMITTED FORM ELEMENTS TO CONSOLE
+            // console.log(elements); // SPIT OUT SUBMITTED FORM ELEMENTS TO CONSOLE
 
             // data object
             const userData = {};

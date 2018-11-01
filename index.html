@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/registration-form.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/registration-form.css">
     <title>Event Registration</title>
 </head>
 <body>
@@ -21,26 +21,28 @@
             <form id="event-form">
                 <label>
                     Name
-                    <input type="text" name="name" id="name" placeholder="First Last">
+                    <input type="text" name="name" id="name" placeholder="First Last" required>
                 </label>
+                <br>
                 <label>
                     Email
-                    <input type="email" name="email" id="email" placeholder="youremail@email.com">
+                    <input type="email" name="email" id="email" placeholder="youremail@email.com" required>
                 <br>
                 </label>
                 <label>
                     Pronoun
-                    <input type="text" name="pronoun" id="pronoun" placeholder="he/his, she/her, they/them">
+                    <input type="text" name="pronoun" id="pronoun" placeholder="he/his, she/her, they/them" required>
                 <br>
                 </label>
                 <label>
                     Number of guests
-                    <input type="number" name="guests" min="1" pattern="[-+]?[0-9]" id="number-of-guests">
+                    <input type="number" name="guests" min="1" pattern="[-+]?[0-9]" id="number-of-guests" required>
                 <br>
                 </label>
                 <label>
-                    Selet a meal
-                    <select id="meal-selection" name="meal">
+                    Select a meal
+                    <select id="meal-selection" name="meal" required>
+                        <option disabled selected>Select a meal</option>
                         <option value="pizza">Pizza</option>
                         <option value="burger">Burger</option>
                         <option value="tacos">Tacos</option>
