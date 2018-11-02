@@ -1,19 +1,6 @@
 const eventForm = document.getElementById('event-form');
 const formResponse = document.getElementById('submit-message-response');
 
-
-// const nameInput = document.getElementById('name');
-
-// const removeResponseAfterSubmit = {
-//    nameInput.addEventListener('keyup', function(event) {
-//      function refreshPage(){
-//         window.location.reload();
-//     }
-// }
-// }
-
-
-
 const eventFormItems = {
     init(onAdd) {
         eventForm.addEventListener('submit', function(event) {
@@ -38,16 +25,16 @@ const eventFormItems = {
             onAdd(userData);
 
             // onscreen message
-            formResponse.textContent = 'Thank you for signing up! We will be in touch as soon as possible.';
+            formResponse.textContent = 'Thanks for signing up!';
 
             eventForm.reset();
 
             // after form submit, clear formResponse after 1000ms/display alert/reload page
             setTimeout(function() {
                 clearMessage();
-                alert('Thanks for signing up!');
+                // alert('Thanks for signing up!');
                 window.location.reload();
-            }, 1000);
+            }, 5000);
 
         });
 

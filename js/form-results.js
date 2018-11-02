@@ -14,7 +14,7 @@ function makeRow(userData) {
 }
 
 const userDataTable = {
-    init: function(userData) {
+    init(userData) {
         for(let i = 0; i < userData.length; i++) {
             const tr = makeRow(userData[i]);
             tableBody.appendChild(tr);
