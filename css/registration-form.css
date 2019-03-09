@@ -1,9 +1,9 @@
-
 form {
     text-align: center;
 }
+
 input {
-    margin: 20px;
+    margin: 5px;
     height: 1.5em;
     font-size: 16px;
     text-indent: .5em;
@@ -15,8 +15,8 @@ input[type=number] {
 }
 
 fieldset {
-    border: .5px solid red;
-    padding: 15px auto;
+    border: .5px solid purple;
+    // padding: 5px auto;
     display: table-row;
 }
 
@@ -29,8 +29,7 @@ label {
 }
 
 select {
-    /* zoom: 1.5; */
-    margin: 20px;
+    margin: 10px;
     zoom: 1em;
     font-size: 16px;
     background-color: white;
@@ -52,15 +51,16 @@ button:hover {
 }
 
 p#submit-message-response {
-    font-size: 24px;
-    color: yellow;
+    font-size: 18px;
+    color: yellowgreen;
+    background: purple;
 }
 
-
 /* ------ table -------- */
-td {
+#form-submission-table {
+    background: purple;
     color: yellowgreen;
     font-weight: 100;
     font-style: italic;
-    justify-content: space-between;
+    display: table;
 }

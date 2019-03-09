@@ -11,6 +11,9 @@ const eventFormItemsApi = {
         eventFormItems.push(item);
         // save array to localStorage
         saveItems();
+    },
+    getAll() {
+        return eventFormItems;
     }
 };
 

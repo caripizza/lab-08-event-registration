@@ -12,7 +12,7 @@ const eventFormItems = {
 
             // data object
             const userData = {};
-
+            
             // gather data
             userData.name = elements.name.value;
             userData.email = elements.email.value;
@@ -20,6 +20,7 @@ const eventFormItems = {
             userData.guests = elements.guests.value;
             userData.meal = elements.meal.value;
             userData.shirt = elements.shirt.value;
+            userData.shirtColor = elements.shirtColor.value;
 
             // call the callback function
             onAdd(userData);
@@ -33,7 +34,7 @@ const eventFormItems = {
             setTimeout(function() {
                 clearMessage();
                 // alert('Thanks for signing up!');
-                window.location.reload();
+                // window.location.reload();
             }, 5000);
 
         });
